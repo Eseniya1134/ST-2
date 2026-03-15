@@ -1,11 +1,11 @@
 // Copyright 2025 UNN-CS Team
 
+#include <gtest/gtest.h>
+#include <cmath>
+#include <cstdint>
 #include "circle.h"
 #include "tasks.h"
 
-#include <gtest/gtest.h>
-#include <cstdint>
-#include <cmath>
 
 const double EPS = 1e-6;
 
@@ -130,5 +130,3 @@ TEST(TaskTest, PoolFenceApprox) {
     poolTask(concrete, fence);
     EXPECT_NEAR(fence, 50265.4, 100);
 }
-
-
