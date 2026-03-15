@@ -1,10 +1,11 @@
 // Copyright 2025 UNN-CS Team
 
+#include "circle.h"
+#include "tasks.h"
+
 #include <gtest/gtest.h>
 #include <cstdint>
-#include "circle.h"
 #include <cmath>
-#include "tasks.h"
 
 const double EPS = 1e-6;
 
